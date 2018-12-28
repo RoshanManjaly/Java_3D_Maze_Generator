@@ -1,0 +1,40 @@
+CRC Cards
+
+Class: WallFollower
+
+Responsibilities:
+•	Drive the robot towards the exit
+•	Assists robot in sensing walls facing forward and facing left
+
+Collaborators:
+•	BasicRobot
+•	ManualDriver
+•	MazeController
+
+
+Class: Wizard
+
+Responsibilities:
+•	Looks for neighboring cells closest to the exit
+•	Drives the robot to the exit 
+
+Collaborators:
+•	BasicRobot
+•	ManualDriver
+•	MazeController 
+•	CardinalDirection 
+
+Class: Pledge
+
+Responsibilities:
+•	Picks random main direction
+•	Senses obstacles 
+•	Tracks right and left turns
+•	Drives the robot to the exit 
+
+Collaborators:
+•	BasicRobot
+•	ManualDriver
+•	MazeController
+•	CardinalDirection 
+
